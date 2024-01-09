@@ -2,8 +2,8 @@
 
   display: flex;
   flex-basis: 32%;
-  margin: 5px; /* Ocupa un tercio del espacio disponible */
-  margin-bottom: 20px; /* Agrega un margen inferior */
+  margin: 5px; 
+  margin-bottom: 20px; 
   border: 1px solid black;
   justify-content: center;
   align-items:  center;
