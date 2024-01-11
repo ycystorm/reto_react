@@ -1,14 +1,12 @@
 .tarjeta{
   display: flex;
-  flex-basis: 28%;
-  margin: 30px; 
+  flex-basis: 23%;
+  margin-left: 90px; 
   margin-bottom: 20px; 
   border: 1px solid black;
   justify-content: center;
   align-items:  center;
   flex-direction: column;
-  
-  
 }
 
 .imagen{
@@ -18,7 +16,6 @@
     height: 200px;
     align-items: center;
     justify-content: center;
-    
 }
 
 .columnas {

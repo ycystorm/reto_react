@@ -15,7 +15,7 @@ function App() {
         <p key={item.name}><span>name:</span> {item.name}</p>
         <p key={item.gender}><span>gender:</span> {item.gender}</p>
         <p key={item.height}><span>height:</span> {item.height}</p>
-        <p key={item.eye_color}><span>eye_color:</span> {item.eye_color}</p>
+        <p key={item.eye_color}><span>eye color:</span> {item.eye_color}</p>
         </div>
       </div>
     </>
