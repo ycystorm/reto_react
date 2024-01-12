@@ -3,11 +3,10 @@ import { useFetch } from "./api/datos";
 import { app } from "./strings";
 import "./api/styles.css";
 
+
 function App() {
-  //recibo la información obtenida de la función y se envía la url del api
-  const { data } = useFetch(
-    "https://raw.githubusercontent.com/ci2Juan/api-client/main/users.json"
-  );
+  //recibo la información obtenida de la función y se envía la url del api (la variable del api esta almacenada como variable de entrno en el .evn por seguridad)
+  const { data } = useFetch(`${process.env.REACT_APP_URL_API}`);
 
   //se almacena el mapeo de los datos del json en la variable cards
   const cards = data?.map((item) => (

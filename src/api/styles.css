@@ -1,7 +1,11 @@
+
+
+
+
 .tarjeta{
   display: flex;
   flex-basis: 23%;/* es la medida estanadar de la targeta, se modificara dependiendo del tamaño de pantalla*/
-  margin-left: 90px; 
+  margin-left: 40px; 
   margin-bottom: 15px; 
   border: 1px solid black;
   justify-content: center;
@@ -26,6 +30,8 @@
     flex-wrap: wrap;
     border: none;
     width: 100%;
+    justify-content: center;
+    align-items: center;
     height: 300px;
   }
 span{
@@ -36,6 +42,7 @@ span{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: 20px;
 }
 .titulo{
   display: flex;
@@ -47,4 +54,28 @@ span{
   transition: 0.5s;
   transform: translateX(5px) translateY(-5px);
   box-shadow: 0 0 7px #000000;
+}
+
+@media (min-width: 1000px) {
+  .tarjeta{
+    display: flex;
+    flex-basis: 23%;/* es la medida estanadar de la targeta, se modificara dependiendo del tamaño de pantalla*/
+    margin-left: 90px; 
+    margin-bottom: 15px; 
+    border: 1px solid black;
+    justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+  }
+  
+  .informacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .informacion p{
+    margin-bottom: 35px;
+  }
 }
