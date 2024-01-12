@@ -1,23 +1,26 @@
 .tarjeta{
   display: flex;
-  flex-basis: 23%;
+  flex-basis: 23%;/* es la medida estanadar de la targeta, se modificara dependiendo del tamaño de pantalla*/
   margin-left: 90px; 
-  margin-bottom: 20px; 
+  margin-bottom: 15px; 
   border: 1px solid black;
   justify-content: center;
   align-items:  center;
   flex-direction: column;
 }
-
 .imagen{
-  margin-top: 5px;
-    display: flex;
-    width: 200px;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
 }
-
+.imagenT{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 37%;
+  margin-top: 5px;
+}
 .columnas {
     display: flex;
     flex-wrap: wrap;
@@ -25,18 +28,15 @@
     width: 100%;
     height: 300px;
   }
-  
 span{
   font-weight: bold;
 }
-
 .informacion{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-
 .titulo{
   display: flex;
   justify-content: center;
